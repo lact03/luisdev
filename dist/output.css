@@ -743,6 +743,25 @@ h2 {
   }
 }
 
+.hover\:text-transparent:hover {
+  color: transparent;
+}
+
+.hover\:text-secondary-2:hover {
+  --tw-text-opacity: 1;
+  color: rgb(241 0 134 / var(--tw-text-opacity));
+}
+
+.hover\:text-secondary-3:hover {
+  --tw-text-opacity: 1;
+  color: rgb(245 130 167 / var(--tw-text-opacity));
+}
+
+.hover\:text-secondary-1:hover {
+  --tw-text-opacity: 1;
+  color: rgb(113 26 117 / var(--tw-text-opacity));
+}
+
 @media not all and (min-width: 1280px) {
   .max-xl\:text-justify {
     text-align: justify;
