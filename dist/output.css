@@ -783,9 +783,35 @@ h2 {
   }
 }
 
+.hover\:bg-secondary-3:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(245 130 167 / var(--tw-bg-opacity));
+}
+
+.hover\:font-bold:hover {
+  font-weight: 700;
+}
+
+.hover\:font-black:hover {
+  font-weight: 900;
+}
+
+.hover\:font-medium:hover {
+  font-weight: 500;
+}
+
+.hover\:font-semibold:hover {
+  font-weight: 600;
+}
+
 .hover\:text-secondary-2:hover {
   --tw-text-opacity: 1;
   color: rgb(241 0 134 / var(--tw-text-opacity));
+}
+
+.hover\:text-primary:hover {
+  --tw-text-opacity: 1;
+  color: rgb(24 10 10 / var(--tw-text-opacity));
 }
 
 @media not all and (min-width: 1280px) {
