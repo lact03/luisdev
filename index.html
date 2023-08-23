@@ -16,13 +16,41 @@
   <body class="bg-primary text-white">
     <header class="">
       <!-- Navbar -->
-      <nav class="flex items-center fixed w-full h-12 top-0">
-        <div class="flex-1 mx-5"><a href="#hero">LACT</a></div>
-        <ul class="flex">
-          <li class="mx-5"><a href="#about-me">About Me</a></li>
-          <li class="mx-5"><a href="#projects">Projects</a></li>
-          <li class="mx-5"><a href="#contact">Contact Me</a></li>
-        </ul>
+      <nav id="navBar">
+        <div
+          class="max-md:hidden backdrop-blur flex items-center fixed w-full h-12 top-0"
+        >
+          <div class="flex-1 mx-5"><a href="#hero">LACT</a></div>
+          <ul class="flex">
+            <li class="mx-5"><a href="#about-me">About Me</a></li>
+            <li class="mx-5"><a href="#projects">Projects</a></li>
+            <li class="mx-5"><a href="#contact">Contact Me</a></li>
+          </ul>
+        </div>
+        <div
+          class="md:hidden py-40 flex flex-col justify-around items-center fixed right-0 h-screen w-14"
+        >
+          <a
+            href="#hero"
+            class="w-4/5 aspect-square leading-10 text-center border-2 border-solid border-secondary-3 rounded-full"
+            >L</a
+          >
+          <a
+            href="#about-me"
+            class="w-4/5 aspect-square leading-10 text-center border-2 border-solid border-secondary-3 rounded-full"
+            ><i class="fa-regular fa-user"></i
+          ></a>
+          <a
+            href="#projects"
+            class="w-4/5 aspect-square leading-10 text-center border-2 border-solid border-secondary-3 rounded-full"
+            ><i class="fa-solid fa-code"></i
+          ></a>
+          <a
+            href="#contact"
+            class="w-4/5 aspect-square leading-10 text-center border-2 border-solid border-secondary-3 rounded-full"
+            ><i class="fa-regular fa-envelope"></i
+          ></a>
+        </div>
       </nav>
     </header>
 
@@ -78,7 +106,7 @@
             class="w-60 h-60 md:w-96 md:h-96 lg:self-center p-2 max-lg:self-center"
           >
             <img
-              src="./public/1690364217869.jpg"
+              src="./public/1690364217869_edited.jpg"
               alt="profile"
               class="h-full w-full object-contain"
             />
