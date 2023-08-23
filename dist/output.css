@@ -628,6 +628,10 @@ video {
   height: 100vh;
 }
 
+.h-36 {
+  height: 9rem;
+}
+
 .min-h-screen {
   min-height: 100vh;
 }
@@ -658,6 +662,10 @@ video {
 
 .justify-center {
   justify-content: center;
+}
+
+.self-start {
+  align-self: flex-start;
 }
 
 .self-center {
@@ -701,9 +709,41 @@ video {
   text-align: justify;
 }
 
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.italic {
+  font-style: italic;
+}
+
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.filter {
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
 html {
@@ -743,23 +783,9 @@ h2 {
   }
 }
 
-.hover\:text-transparent:hover {
-  color: transparent;
-}
-
 .hover\:text-secondary-2:hover {
   --tw-text-opacity: 1;
   color: rgb(241 0 134 / var(--tw-text-opacity));
-}
-
-.hover\:text-secondary-3:hover {
-  --tw-text-opacity: 1;
-  color: rgb(245 130 167 / var(--tw-text-opacity));
-}
-
-.hover\:text-secondary-1:hover {
-  --tw-text-opacity: 1;
-  color: rgb(113 26 117 / var(--tw-text-opacity));
 }
 
 @media not all and (min-width: 1280px) {
@@ -777,6 +803,10 @@ h2 {
 @media not all and (min-width: 768px) {
   .max-md\:items-center {
     align-items: center;
+  }
+
+  .max-md\:justify-center {
+    justify-content: center;
   }
 
   .max-md\:justify-between {
@@ -802,6 +832,10 @@ h2 {
     height: 24rem;
   }
 
+  .md\:h-56 {
+    height: 14rem;
+  }
+
   .md\:w-96 {
     width: 24rem;
   }
@@ -810,8 +844,16 @@ h2 {
     flex-direction: row;
   }
 
+  .md\:justify-items-start {
+    justify-items: start;
+  }
+
   .md\:self-start {
     align-self: flex-start;
+  }
+
+  .md\:justify-self-start {
+    justify-self: start;
   }
 
   .md\:text-3xl {
